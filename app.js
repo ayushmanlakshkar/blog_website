@@ -7,7 +7,7 @@ const post = require('./postmodel.js');
 const comment = require('./commentmodel.js');
 
 // PUT MONGODB DATABASE URL HERE
-url='mongodb+srv://clashingtech44:jgeT7zboazo3q4UT@cluster0.3mlhw4j.mongodb.net/'
+url=''
 
 const mongoDbURI = url
 mongoose.connect(mongoDbURI)
